@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LuthGom/rascunho.git/static/css/main.41201d55.css",
+    "main.js": "/LuthGom/rascunho.git/static/js/main.366b027b.js",
+    "index.html": "/LuthGom/rascunho.git/index.html",
+    "main.41201d55.css.map": "/LuthGom/rascunho.git/static/css/main.41201d55.css.map",
+    "main.366b027b.js.map": "/LuthGom/rascunho.git/static/js/main.366b027b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41201d55.css",
+    "static/js/main.366b027b.js"
+  ]
+}
