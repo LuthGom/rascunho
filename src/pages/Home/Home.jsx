@@ -3,7 +3,7 @@ import Cartao from "../../components/Cartao/Cartao.jsx";
 import { api } from "../../services/api.js";
 import styles from "./Home.module.css";
 
-function Home({ id }) {
+function Home() {
   const [values, setvalues] = useState([]);
   useEffect(() => {
     api
