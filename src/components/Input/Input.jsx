@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../Button/Button";
 import styles from "./Input.module.css";
 import { FormControl, FormLabel } from "react-bootstrap";
 function Input({ name, nome, onChange, value, contentEditable, disabled }) {

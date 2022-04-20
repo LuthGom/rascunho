@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Input from "../Input/Input.jsx";
-import styles from "./Formulario.module.css";
+// import styles from "./Formulario.module.css";
 import Button from "../Button/Button.jsx";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

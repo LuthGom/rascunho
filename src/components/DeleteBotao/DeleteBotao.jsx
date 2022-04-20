@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { api } from "../../services/api";
 import { Button } from "react-bootstrap";
 export default function DeleteBotao({ id }) {

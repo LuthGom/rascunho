@@ -3,11 +3,9 @@ import Cartao from "../../components/Cartao/Cartao.jsx";
 import { api } from "../../services/api.js";
 import { useNavigate } from "react-router-dom";
 import styles from "./Home.module.css";
-import PutBotao from "../../components/PutBotao/PutBotao.jsx";
-import { Container, Col, Row } from "react-bootstrap";
+
 function Home({ id }) {
   const [values, setvalues] = useState([]);
-  const navigate = useNavigate();
   useEffect(() => {
     api
       .get(`/contacts`)
