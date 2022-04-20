@@ -1,0 +1,14 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+.container{
+    max-height: max-content;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 135% 100px;
+} 
+
+h1 {
+    font-family: 'Rubik Glitch', cursive;
+    text-align: center;
+}
+

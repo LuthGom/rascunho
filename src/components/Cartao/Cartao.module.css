@@ -1,0 +1,31 @@
+/* .container {
+    
+} */
+.img{
+  width: 200px;
+  height: 200px;
+  display: flex;
+}
+.container h1, .container p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+.container span{
+    font-weight: normal;
+    color: purple;
+}
+
+@keyframes bg-tr {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
