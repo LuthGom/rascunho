@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import Cartao from "../../components/Cartao/Cartao.jsx";
 import { api } from "../../services/api.js";
-import { useNavigate } from "react-router-dom";
 import styles from "./Home.module.css";
 
 function Home({ id }) {

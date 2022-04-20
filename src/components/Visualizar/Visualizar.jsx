@@ -11,17 +11,17 @@ export default function Feitiço() {
   const navigate = useNavigate()
   useEffect(() => {
     api
-      .get(`/fairies/${id}`)
+      .get(`/contacts/${id}`)
       .then((response) => {
         console.log(response.data);
         setValue(response.data);
       })
       .catch((erro) => console.log(erro));
-  }, []);
+  }, [id]);
 
   function handleAtualizar() {
       api
-        .put("/fairies/" + id, value)
+        .put("/contacts/" + id, value)
         .then((response) => console.log(response.data))
         .catch((err) => {
           console.log(err);
@@ -66,14 +66,14 @@ export default function Feitiço() {
         onChange={handleOnChange}
       />
       <Input
-        value={value.element}
+        value={value.email}
         nome="Elemento"
         name="element"
         disabled={disabled}
         onChange={handleOnChange}
       />
       <Input
-        value={value.health_point}
+        value={value.phone}
         nome="Vida"
         name="health_point"
         disabled={disabled}
